@@ -1,0 +1,7 @@
+.DS_Store
+ft_ssl
+*.o
+*.out
+*.a
+.vscode
+.editorconfig.file
