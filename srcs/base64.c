@@ -86,7 +86,7 @@ void		base64(int argc, char **argv)
 		else if (argv[i][0] == '-' && argv[i][1] == 'd')
 			ssl.flags.encode = -1;
 		else if (argv[i][0] == '-' && argv[i][1] == 'e')
-			continue ;
+			;
 		else if (argv[i][0] == '-')
 			base64_usage();
 		else
